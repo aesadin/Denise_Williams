@@ -1,0 +1,44 @@
+.about {
+	float: right;
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: .7em 1.4em;
+	border-radius: 5px;
+	border: 2px solid #f4f4f4;
+}
+
+.about:hover {
+	border-color: #4a41fb;
+}
+
+.donations {
+	float: left;
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: .7em 1.4em;
+	border-radius: 5px;
+	border: 2px solid #f4f4f4;
+}
+
+.donations:hover {
+	border-color: #4a41fb;
+}
+
+.home {
+	float: right;
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: .7em 1.4em;
+	border-radius: 5px;
+	border: 2px solid #f4f4f4;
+}
+
+.home:hover {
+	border-color: #4a41fb;
+}
+
+h1 {
+	color: salmon;
+	text-align: center;
+	font-size: 70px;
+}
