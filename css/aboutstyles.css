@@ -1,0 +1,49 @@
+.jumbotron {
+	background-image: url(../img/Denise2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+	
+}
+
+.aboutme {
+  color: whitesmoke;
+  font-family: 'Fredericka the Great', cursive;
+  text-emphasis-color: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  
+}
+
+.myStory {
+  font-family: 'Cormorant Garamond', serif;
+  color: #000;
+  font: bold;
+}
+
+.home {
+	float: right;
+	text-decoration: none;
+	font-size: 1em;
+	padding: .5em .5em;
+	border-radius: 3px;
+	border: 2px solid #f4f4f4;
+}
+
+.home:hover {
+  border-color: #4a41fb;
+  
+}
+
+.row {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 0%;
+	margin-bottom: 2%;
+}
+
+
+

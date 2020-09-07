@@ -1,9 +1,30 @@
-.about {
-	float: right;
+.WebContainer{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.body {
+	background-image: url(../img/3_BLM_PROTESTS.svg);
+	height: auto;
+	margin: auto;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	
+}
+
+
+
+.fixed {
+	position: fixed;
+  bottom: 5%;
+  right: 5%;
 	text-decoration: none;
-	font-size: 1.3em;
-	padding: .7em 1.4em;
-	border-radius: 5px;
+	font-size: 1em;
+	padding: .5em .5em;
+	border-radius: 3px;
 	border: 2px solid #f4f4f4;
 }
 
@@ -14,9 +35,9 @@
 .donations {
 	float: left;
 	text-decoration: none;
-	font-size: 1.3em;
-	padding: .7em 1.4em;
-	border-radius: 5px;
+	font-size: 1em;
+	padding: .5em .5em;
+	border-radius: 3px;
 	border: 2px solid #f4f4f4;
 }
 
@@ -27,9 +48,9 @@
 .home {
 	float: right;
 	text-decoration: none;
-	font-size: 1.3em;
-	padding: .7em 1.4em;
-	border-radius: 5px;
+	font-size: 1em;
+	padding: .5em .5em;
+	border-radius: 3px;
 	border: 2px solid #f4f4f4;
 }
 
@@ -40,5 +61,43 @@
 h1 {
 	color: salmon;
 	text-align: center;
-	font-size: 70px;
+	font-size: 40px;
+	font-family: 'Fredericka the Great', cursive;
+	
 }
+
+h2 {
+	font-size: 60px;
+	padding-top: 9%;
+	padding-left: 15%;
+}
+
+.row {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 0%;
+	margin-bottom: 2%;
+}
+
+.image {
+	padding-left: 25%;
+}
+
+#jumbo {
+	font-family: 'Cormorant Garamond', serif;
+	color: rgb(80, 78, 78);
+	font-size: 15px;
+}
+
+#statement {
+	text-align: center;
+  margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 4px;
+  border: 4px double;
+  padding: 8px;
+  background-color: transparent;
+  float: left;
+	font-family: 'Cormorant Garamond', serif;
+}
+
