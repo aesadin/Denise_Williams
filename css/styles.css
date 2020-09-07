@@ -89,15 +89,9 @@ h2 {
 	font-size: 15px;
 }
 
-#statement {
-	text-align: center;
-  margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 4px;
-  border: 4px double;
-  padding: 8px;
-  background-color: transparent;
-  float: left;
-	font-family: 'Cormorant Garamond', serif;
-}
 
+
+.contact {
+	font-family: 'Cormorant Garamond', serif;
+	float: left;
+}
