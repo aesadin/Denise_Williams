@@ -4,6 +4,18 @@
 	margin: auto;
 }
 
+.jumbotron {
+	/* background-image: url(../img/Denise3.png);
+  background-size: 100% 100%;
+	background-repeat: no-repeat; */
+	background-color: rgba(228, 228, 227, 0.573);
+	padding-top: 30px;  
+	padding-bottom: 30px;  
+	margin-bottom: 30px;
+  
+	
+}
+
 .body {
 	background-image: url(../img/3_BLM_PROTESTS.svg);
 	height: auto;
@@ -93,5 +105,18 @@ h2 {
 
 .contact {
 	font-family: 'Cormorant Garamond', serif;
-	float: left;
+	position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 75%; 
+        text-align: center;
+				width: 60%;
+				
+
+}
+
+.box {
+	border
 }
