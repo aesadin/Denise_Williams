@@ -31,9 +31,6 @@
 } */
 
 .jumbotron {
-	/* background-image: url(../img/Denise3.png);
-  background-size: 100% 100%;
-	background-repeat: no-repeat; */
 	background-color: rgba(228, 228, 227, 0.573);
 	padding-top: 30px;  
 	padding-bottom: 30px;  
@@ -53,26 +50,6 @@
 	
 }
 
-
-
-.about:hover {
-	border-color: #4a41fb;
-}
-
-
-
-.home {
-	float: right;
-	text-decoration: none;
-	font-size: 1em;
-	padding: .5em .5em;
-	border-radius: 3px;
-	border: 2px solid #f4f4f4;
-}
-
-.home:hover {
-	border-color: #4a41fb;
-}
 
 h1 {
 	color: salmon;
