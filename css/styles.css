@@ -29,17 +29,6 @@
 
 
 
-.fixed {
-	position: fixed;
-  bottom: 5%;
-  right: 5%;
-	text-decoration: none;
-	font-size: 1em;
-	padding: .5em .5em;
-	border-radius: 3px;
-	border: 2px solid #f4f4f4;
-}
-
 .about:hover {
 	border-color: #4a41fb;
 }
