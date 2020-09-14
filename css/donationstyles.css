@@ -18,8 +18,9 @@
   
 }
 
-.home {
-	float: right;
+
+.donations {
+  float: right;
 	text-decoration: none;
 	font-size: 1em;
 	padding: .5em .5em;
@@ -27,21 +28,8 @@
 	border: 2px solid #f4f4f4;
 }
 
-.home:hover {
-  border-color: #4a41fb;
-  
-}
-
-.donations {
-  text-decoration: none;
-	font-size: 1em;
-	padding: .5em .5em;
-	border-radius: 3px;
-	border: 2px solid #f4f4f4;
-}
-
 .donations:hover {
-  border-color: #4a41fb;
+  border-color: #f51414;
   
 }
 

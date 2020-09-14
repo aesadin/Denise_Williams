@@ -1,8 +1,34 @@
-.WebContainer{
+
+@media only screen and (max-width: 900px) {
+	.jumbotron {
+		/* background-image: url(../img/Denise3.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat; */
+		background-color: rgba(228, 228, 227, 0.573);
+		padding-top: 30px;  
+		padding-bottom: 30px;  
+		margin-bottom: 30px;
+		
+		
+	}
+	
+	.body {
+		background-image: url(../img/3_BLM_PROTESTS.svg);
+		height: auto;
+		margin: auto;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 50%;
+		background-repeat: no-repeat;
+		
+	}
+
+}
+/* .WebContainer{
 	width: 100%;
 	height: auto;
 	margin: auto;
-}
+} */
 
 .jumbotron {
 	/* background-image: url(../img/Denise3.png);
@@ -33,18 +59,7 @@
 	border-color: #4a41fb;
 }
 
-.donations {
-	float: left;
-	text-decoration: none;
-	font-size: 1em;
-	padding: .5em .5em;
-	border-radius: 3px;
-	border: 2px solid #f4f4f4;
-}
 
-.donations:hover {
-	border-color: #4a41fb;
-}
 
 .home {
 	float: right;
