@@ -1,41 +1,18 @@
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) { */
 	.jumbotron {
-		/* background-image: url(../img/Denise3.png);
+		background-image: url(../img/Kid.png);
 		background-size: 100% 100%;
-		background-repeat: no-repeat; */
-		background-color: rgba(228, 228, 227, 0.573);
-		padding-top: 30px;  
-		padding-bottom: 30px;  
-		margin-bottom: 30px;
-		
-		
+		background-repeat: no-repeat;
+			
 	}
 	
-	.body {
-		background-image: url(../img/3_BLM_PROTESTS.svg);
-		height: auto;
-		margin: auto;
-		background-position: center;
-		background-attachment: fixed;
-		background-size: 50%;
-		background-repeat: no-repeat;
-		
-	}
-
-}
-/* .WebContainer{
-	width: 100%;
-	height: auto;
-	margin: auto;
-} */
 
 .jumbotron {
 	background-color: rgba(228, 228, 227, 0.573);
 	padding-top: 30px;  
 	padding-bottom: 30px;  
 	margin-bottom: 30px;
-  
 	
 }
 
@@ -52,10 +29,15 @@
 
 
 h1 {
-	color: salmon;
-	text-align: center;
-	font-size: 40px;
+	color: whitesmoke;
 	font-family: 'Fredericka the Great', cursive;
+	font-size: 60px;
+  text-emphasis-color: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 	
 }
 
@@ -72,14 +54,19 @@ h2 {
 	margin-bottom: 2%;
 }
 
+.rowColor {
+  color: #f51414;
+  font-size: 20px;
+}
+
 .image {
 	padding-left: 25%;
 }
 
 #jumbo {
 	font-family: 'Cormorant Garamond', serif;
-	color: rgb(80, 78, 78);
-	font-size: 15px;
+	color: rgb(241, 240, 240);
+	font-size: 25px;
 }
 
 

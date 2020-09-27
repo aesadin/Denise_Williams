@@ -6,6 +6,11 @@
 	
 }
 
+.rowColor {
+  color: #f51414;
+  font-size: 20px;
+}
+
 .donationHeader {
   color: whitesmoke;
   font-family: 'Fredericka the Great', cursive;
