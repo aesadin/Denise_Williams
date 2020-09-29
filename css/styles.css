@@ -1,5 +1,4 @@
 
-/* @media only screen and (max-width: 900px) { */
 	.jumbotron {
 		background-image: url(../img/Kid.png);
 		background-size: 100% 100%;
@@ -8,74 +7,113 @@
 	}
 	
 
-.jumbotron {
-	background-color: rgba(228, 228, 227, 0.573);
-	padding-top: 30px;  
-	padding-bottom: 30px;  
-	margin-bottom: 30px;
-	
-}
+	.jumbotron {
+		background-color: rgba(228, 228, 227, 0.573);
+		padding-top: 30px;  
+		padding-bottom: 30px;  
+		margin-bottom: 30px;
+		
+	}
 
 
 
 
-h1 {
-	color: whitesmoke;
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 60px;
-  text-emphasis-color: bold;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-	
-}
+	h1 {
+		color: whitesmoke;
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 60px;
+		text-emphasis-color: bold;
+		text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+		
+	}
 
-h2 {
-	font-size: 60px;
-	padding-top: 9%;
-	padding-left: 15%;
-}
+	h2 {
+		font-size: 60px;
+		padding-top: 9%;
+		padding-left: 15%;
+	}
 
-.row {
-	text-align: center;
-	font-size: 15px;
-	padding-top: 0%;
-	margin-bottom: 2%;
-}
+	.row {
+		text-align: center;
+		font-size: 15px;
+		padding-top: 0%;
+		margin-bottom: 2%;
+	}
 
-.rowColor {
-  color: #f51414;
-  font-size: 20px;
-}
+	.rowColor {
+		color: #f51414;
+		font-size: 20px;
+	}
 
-.image {
-	padding-left: 25%;
-}
+	audio {
+		display: none;
+	}
 
-#jumbo {
-	font-family: 'Cormorant Garamond', serif;
-	color: rgb(241, 240, 240);
-	font-size: 25px;
-}
+	button {
+		font-size: 16px;
+		color: #eee;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50px;
+		padding: 15px;
+		border: none;
+		border-radius: 2px;
+		outline: none;
+		background: rgba(167, 67, 75, 0.8);
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+		opacity: 0.8;
+		cursor: pointer;
+		transition: all 0.4s ease-out;
+	}
+
+	button.fade:hover {
+		opacity: 0.8;
+	}
+
+	.fade {
+		opacity: 0.2;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+	}
 
 
+	.image {
+		padding-left: 25%;
+	}
 
-.contact {
-	font-family: 'Cormorant Garamond', serif;
-	position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 75%; 
-        text-align: center;
-				width: 60%;
-				
+	#jumbo {
+		font-family: 'Cormorant Garamond', serif;
+		color: rgb(241, 240, 240);
+		font-size: 25px;
+	}
 
-}
 
-/* .box {
-	border
-} */
+	.contact {
+		font-family: 'Cormorant Garamond', serif;
+		position: absolute;
+					z-index: 999;
+					margin: 0 auto;
+					left: 0;
+					right: 0;
+					top: 50%; 
+					text-align: center;
+					width: 60%;
+					
+	}
+
+	.mp3 {
+		position: absolute;
+					z-index: 999;
+					margin: 0 auto;
+					left: 0;
+					right: 10%;
+					top: 80%; 
+					text-align: right;
+	}
